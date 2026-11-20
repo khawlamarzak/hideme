@@ -1,0 +1,38 @@
+﻿Semaine,Phase,Tâche,Responsable,Statut,Livrable
+S1,Cadrage,Valider le sujet et le périmètre avec l'encadrante,Les deux,À faire,Sujet validé
+S1,Cadrage,Créer le dépôt GitHub et la structure du projet,Rayane,À faire,Dépôt initialisé
+S1,Cadrage,Installer Presidio et le tester sur 10 messages,Khawla,À faire,Notes de test
+S1,Cadrage,"Lister les données à protéger et leurs formats (CIN, RIB, téléphone, CNSS, e-mail, IBAN, carte)",Khawla,À faire,Liste des entités
+S2,Cadrage,"Faire la revue de l'existant : outils de masquage, ressources en darija",Les deux,À faire,Note de synthèse
+S2,Cadrage,Tester 2 ou 3 modèles NER existants sur des messages en darija et arabizi,Khawla,À faire,Tableau de résultats
+S2,Cadrage,"Choisir les outils : LangGraph, base vectorielle, modèle de langage",Rayane,À faire,Choix techniques
+S2,Cadrage,Définir le format et les règles d'annotation du jeu de test,Khawla,À faire,Guide d'annotation
+S3,Jeu de test,"Écrire 150 messages à la main (support banque et télécom, données inventées)",Les deux,À faire,150 messages
+S3,Jeu de test,"Générer 350 messages avec un modèle, puis les relire",Rayane,À faire,350 messages relus
+S4,Jeu de test,Annoter les 500 messages,Les deux,À faire,Jeu de test annoté
+S4,Jeu de test,"Vérifier l'annotation : 50 messages annotés par les deux, puis comparés",Les deux,À faire,Taux d'accord
+S4,Jeu de test,"Écrire le script d'évaluation : précision, rappel, F1 par type de donnée",Khawla,À faire,Script d'évaluation
+S5,Bouclier v1,"Brancher Presidio pour les données internationales (e-mail, IBAN, carte)",Khawla,À faire,Module de base
+S5,Bouclier v1,"Écrire les détecteurs marocains : CIN, téléphone, RIB, CNSS",Khawla,À faire,Pack Maroc v1
+S5,Bouclier v1,Écrire le masquage et la restauration (table de correspondance),Rayane,À faire,Fonctions masquer et restaurer
+S6,Bouclier v1,Ajouter les mots de contexte et les clés de contrôle,Khawla,À faire,Détecteurs affinés
+S6,Bouclier v1,Écrire les tests unitaires du bouclier,Rayane,À faire,Tests unitaires
+S6,Bouclier v1,Faire la première mesure : bouclier v1 contre Presidio seul,Khawla,À faire,Rapport de mesure 1
+S7,Bouclier v2,"Construire les listes de prénoms, noms et villes, avec variantes d'écriture",Rayane,À faire,Listes
+S7,Bouclier v2,"Normaliser l'arabizi (chiffres 3, 7, 9) et les mélanges de langues",Khawla,À faire,Normaliseur
+S7,Bouclier v2,Intégrer le meilleur modèle NER existant comme troisième couche,Khawla,À faire,Couche NER
+S8,Bouclier v2,"Affiner un modèle NER sur Colab, seulement si les résultats sont insuffisants",Khawla,À faire,Modèle affiné (optionnel)
+S8,Bouclier v2,Faire la deuxième mesure et analyser les erreurs,Khawla,À faire,Rapport de mesure 2
+S8,Bouclier v2,Préparer la FAQ et 20 documents pour le RAG,Rayane,À faire,Corpus RAG
+S9,Plateforme,Créer le serveur MCP avec 3 outils simulés,Rayane,À faire,Serveur MCP
+S9,Plateforme,Mettre en place le RAG : embeddings et base vectorielle,Rayane,À faire,RAG fonctionnel
+S9,Plateforme,Construire l'agent orchestrateur et 2 agents spécialisés avec LangGraph,Les deux,À faire,Agents
+S10,Plateforme,"Construire la passerelle des outils : restaurer les arguments, masquer les résultats",Khawla,À faire,Passerelle
+S10,Plateforme,Ajouter le journal de traçabilité,Rayane,À faire,Journal
+S10,Plateforme,Écrire 100 scénarios de test pour l'agent,Les deux,À faire,Scénarios
+S11,Évaluation et démo,Comparer l'agent avec et sans bouclier sur les 100 scénarios,Khawla,À faire,Résultats agent
+S11,Évaluation et démo,"Mesurer le RAG (50 questions), les fuites, le temps et le coût",Rayane,À faire,Résultats RAG et coût
+S11,Évaluation et démo,"Créer l'interface Streamlit, l'image Docker et la mise en ligne",Rayane,À faire,Démo en ligne
+S12,Rapport et soutenance,Rédiger le rapport,Les deux,À faire,Rapport
+S12,Rapport et soutenance,Préparer les slides et répéter la démo,Les deux,À faire,Présentation
+S12,Rapport et soutenance,Nettoyer le dépôt et écrire le README,Les deux,À faire,Dépôt final
